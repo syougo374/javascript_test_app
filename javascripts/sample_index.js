@@ -1,4 +1,5 @@
 
+
 function emailValidate(){
   const forms = document.forms[0];
   forms.addEventListener('submit',(e) =>{

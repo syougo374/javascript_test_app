@@ -1,13 +1,23 @@
+// function btn_color(){
+//   const a = document.querySelector('h1');
+//   const btn = document.getElementById('btn');
+//   btn.onclick = function(e){
+//     e.currentTarget.style.backgroundColor = "red";
+//     a.style.color="#ff5"
+//   }
+// }
+// window.onload = btn_color;
+
+
 function btn_color(){
-  const a = document.querySelector('h1');
-  const btn = document.getElementById('btn');
-  btn.onclick = function(e){
-    e.currentTarget.style.backgroundColor = "red";
-    a.style.color="#ff5"
+  const a = $('h1');
+  const btn = $('#btn');
+  btn.click = function(e) {
+    e.target.style.backgroundColor="red";
+    e.style.color ="yellow";
   }
 }
-window.onload = btn_color;
-
+$(document).ready(btn_color);
 // function h1_color_changger(){
 //   const ppp = document.querySelector('p')
 //   ppp.classList.toggle('change_color');

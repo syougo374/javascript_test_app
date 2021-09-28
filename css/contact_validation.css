@@ -76,3 +76,8 @@ body {
 .reset_btn {
   background: #e6e6e6;
 }
+.alert {
+  color: #fff;
+  padding: 20px;
+  background: #d14539;
+}
